@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Bebas neue;
+  font-size: large;
+}
+
+/*La barre de navigation*/
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  padding: 0 25px;
+}
+
+nav .gauche {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav .gauche img {
+  padding-top: 5px;
+}
+
+nav .gauche .onglets {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10px;
+}
+
+nav .gauche .onglets p {
+  margin-left: 10px;
+  cursor: pointer;
+  color: #909191;
+}
+
+nav .gauche .onglets p:hover {
+  color: white;
+}
+
+nav .droite {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav .droite p {
+  margin-right: 10px;
+  cursor: pointer;
+  color: #909191;
+}
+
+nav .droite p:hover {
+  color: white;
+}
+
+/*Fin de la barre de navigation*/
+
+/*Les films et séries*/
+.films-et-series {
+  background-color: #191a1a;
+  padding: 25px;
+}
+
+.films-et-series .section {
+  margin-bottom: 55px;
+}
+
+.films-et-series .section h2 {
+  color: white;
+}
+
+.films-et-series .section .list {
+  display: flex;
+  overflow: auto;
+}
+
+.films-et-series .section a {
+  padding-left: 5px;
+  transition: transform 0.25s;
+}
+
+.films-et-series .section a:hover {
+  padding-left: 5px;
+  transform: scale(1.05);
+}
+
+.films-et-series .section a img {
+  height: 140px;
+}
+
+/*Fin des films et séries */
+
+/*Pied de page */
+footer {
+  background-color: #000;
+  color: white;
+  padding: 25px 100px;
+}
+
+footer h3 {
+  color: #909191;
+}
+
+footer h3:hover {
+  color: white;
+  cursor: pointer;
+}
+
+footer .colonnes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer .colonnes .colonne p {
+  color: #909191;
+}
+
+footer .colonnes .colonne p:hover {
+  color: white;
+  cursor: pointer;
+}
